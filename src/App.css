@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+ html, body, #app {
+	 height: 100%;
+}
+ .container {
+	 min-height: 100%;
+	 padding: 30px;
+	 font-family: 'PT Sans';
+	 text-align: center;
+}
+ .container .btn {
+	 display: inline-block;
+	 margin-bottom: 20px;
+	 border: 1px solid #1569a8;
+	 background: white;
+	 color: #1569a8;
+	 padding: 5px 10px;
+	 border-radius: 5px;
+	 margin-right: 5px;
+	 font-size: 15px;
+	 cursor: pointer;
+	 outline: none;
+}
+ .container .btn:hover {
+	 background: #1569a8;
+	 color: white;
+	 transition: 0.5s;
+}
+
